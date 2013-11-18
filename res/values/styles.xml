@@ -1,0 +1,116 @@
+<resources>
+
+<!-- Application theme. -->
+    
+   <!-- Estilo de texto # 1  -->
+   <style name="estilo_texto_1" >
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+   <style name="estilo_texto_2" >
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+   <style name="error"> 
+       <item name="android:textColor">#ef4444</item>
+       <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+   </style>
+	
+   
+	
+	<!-- Estilo de botones #1 con texto # 1-->
+	<!-- Boton color azul -->
+   <style name="Boton_azul" parent="estilo_texto_1">
+	    <item name="android:background">@color/azul</item>
+   </style>
+   
+   <style name="Boton_celeste" parent="estilo_texto_1">
+	    <item name="android:background">@color/celeste</item>
+   </style>
+   
+    <!-- Boton color medio rojo -->
+   <style name="Boton_medio_rojo" parent="estilo_texto_1">
+	    <item name="android:background">@color/medio_rojo</item>
+   </style>
+   
+   <!-- Boton color verde -->
+   <style name="Boton_verde" parent="estilo_texto_1">
+	    <item name="android:background">@color/verde</item>
+   </style>
+   
+   <!-- Boton color rojo -->
+   <style name="Boton_rojo" parent="estilo_texto_1">
+	    <item name="android:background">@color/rojo</item>
+   </style>
+   
+    <!-- Boton color amarillo -->
+   <style name="Boton_amarillo" parent="estilo_texto_1">
+	    <item name="android:background">@color/amarillo</item>
+   </style>
+   
+   <!--  android:drawableLeft-->
+   <!-- Boton de ingreso (Login)  -->
+   <style name="Boton_ingreso" parent="Boton_azul">
+	    <!--item name="android:drawableLeft">@drawable/ic_unlock</item-->
+   </style>
+   
+	<!-- Boton de registro de nuevo usuario  -->
+   <style name="Boton_nuevo_usuario" parent="Boton_verde">
+	    <item name="android:drawableLeft">@drawable/ic_new_user</item>
+   </style>
+   
+   <!-- Boton de registro guardar  -->
+   <style name="Boton_guardar" parent="Boton_azul">
+	    <item name="android:drawableLeft">@drawable/ic_save</item>
+   </style>
+   
+   <!-- Boton Salir  -->
+   <style name="Boton_salir" parent="Boton_rojo">
+	    <item name="android:drawableLeft">@drawable/ic_exit</item>
+   </style>
+   
+   <!-- Boton Atrás  -->
+   <style name="Boton_atras" parent="Boton_amarillo">
+	    <item name="android:drawableLeft">@drawable/ic_back</item>
+   </style>
+   
+   <!-- Boton Inicio  -->
+   <style name="Boton_inicio" parent="Boton_azul">
+	    <item name="android:drawableLeft">@drawable/ic_home_main</item>
+   </style>
+   
+   <!-- Boton Subir  -->
+   <style name="Boton_subir_archivo" parent="Boton_verde">
+	    <item name="android:drawableLeft">@drawable/ic_upload</item>
+   </style>
+   
+   <!-- Boton Subir  -->
+   <style name="Boton_subir_datos" parent="Boton_celeste">
+	    <item name="android:drawableTop">@drawable/upload</item>
+   </style>
+   
+   <!-- Boton Enviar mensaje  -->
+   <style name="Boton_bajar_datos" parent="Boton_medio_rojo">
+	    <item name="android:drawableTop">@drawable/download</item>
+   </style>
+   
+</resources>

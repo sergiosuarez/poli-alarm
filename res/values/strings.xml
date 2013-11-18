@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendario Academico</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Alarm Setting Screen</string>
+    <string name="title_activity_demo">Demo Activity Screen</string>
+    <string name="str_btn_set_alarm">Set Alarm</string>
+    <string name="str_btn_quit">Quit</string>
+    <string name="str_tv_message">Opened by Alarm</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

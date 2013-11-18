@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_un_mu"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/celeste"
+    android:scrollbars="vertical" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/celeste"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_mat1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+    
+        <TextView
+        android:id="@+id/txt_mat5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <TextView
+        android:id="@+id/txt_mat8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/blanco"
+        android:text="Materia - aula - dias -hora" />
+
+    <Button
+        android:id="@+id/btn_mos_borrar"
+        style="@style/Boton_rojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="BORRAR CALENDARIO" />
+    <Button
+        android:id="@+id/btn_mos_menu"
+        style="@style/Boton_verde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="MENU PRINCIPAL" />
+
+    <Button
+        android:id="@+id/btn_mos_activar"
+        style="@style/Boton_amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="ACTIVAR" />
+
+</LinearLayout>
+</ScrollView>

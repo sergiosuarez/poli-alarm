@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/celeste" >
+<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+        
+        <Button
+        android:id="@+id/btn_mel1"
+        android:text="Tono: 300 hu hu hu!"     
+        style="@style/Boton_amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_mel2"   
+        style="@style/Boton_medio_rojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Tono: beep beep" />
+
+    <Button
+        android:id="@+id/btn_mel3"   
+        style="@style/Boton_verde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Tono: porque senior?" />
+
+    <Button
+        android:id="@+id/btn_mel4"   
+        style="@style/Boton_rojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Tono: sms" />
+    
+    <Button
+        android:id="@+id/btn_mel_salir"
+        style="@style/Boton_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:text="Salir" />
+    
+    </LinearLayout>
+    
+
+</RelativeLayout>
